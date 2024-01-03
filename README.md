@@ -5,8 +5,8 @@
 ## Description
 I'm a beginner in Python3, so there may be some bugs.
 
-[!WARNING]
->After launching the bot, you must immediately select the deferred posting interval that you need! If you do not select it, the post you send will be immediately published in the community!
+> [!WARNING]
+> After launching the bot, you must immediately select the deferred posting interval that you need! If you do not select it, the post you send will be immediately published in the community!
 
 Telegram bot with which you can post posts to your VK group. Posts can be posted directly or via delayed posting. There are 4 options for the delayed publication timer:
 - each hour
@@ -20,8 +20,8 @@ The bot is written in Python3, using the asynchronous [aiogram](https://github.c
 
 ### Run in Docker
 ```
-git clone existing_repo
-cd existing_repo
+git clone https://github.com/Evgeniy-DevOps/tg-publisher-vk-post-to-wall.git
+cd tg-publisher-vk-post-to-wall
 docker build --rm --no-cache -t tg-publisher-vk-post-to-wall -f Dockerfile .
 docker run --rm -d -e TG_TOKEN='YOUR_TG_TOKEN' -e VK_TOKEN='YOUR_VK_API_KEY' -e VK_GROUP='YOUR_VK_ID_GROUP' tg-publisher-vk-post-to-wall
 ```
