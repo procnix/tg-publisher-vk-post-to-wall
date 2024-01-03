@@ -1,0 +1,12 @@
+.vscode
+.venv
+src/__pycache__
+src/handlers/menu/__pycache__
+src/handlers/__pycache__
+src/handlers/menu/__pycache__
+src/db/__pycache__
+*.db
+src/vk_back/__pycache__
+src/vk_back/post/__pycache__
+src/vk_back/timers/__pycache__
+src/keyboards/__pycache__
